@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152C83BA1ED596F900F9D9FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C83B91ED596F900F9D9FE /* main.m */; };
+		152C83BD1ED596F900F9D9FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C83BC1ED596F900F9D9FE /* AppDelegate.m */; };
+		152C83C01ED596F900F9D9FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C83BF1ED596F900F9D9FE /* ViewController.m */; };
+		152C83C31ED596F900F9D9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152C83C11ED596F900F9D9FE /* Main.storyboard */; };
+		152C83C51ED596F900F9D9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152C83C41ED596F900F9D9FE /* Assets.xcassets */; };
+		152C83C81ED596F900F9D9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152C83C61ED596F900F9D9FE /* LaunchScreen.storyboard */; };
+		152C83D31ED596FA00F9D9FE /* ViewTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C83D21ED596FA00F9D9FE /* ViewTrackerTests.m */; };
+		152C83DE1ED596FA00F9D9FE /* ViewTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C83DD1ED596FA00F9D9FE /* ViewTrackerUITests.m */; };
+		152C83ED1ED597AC00F9D9FE /* UIView+ViewTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C83EC1ED597AC00F9D9FE /* UIView+ViewTracker.m */; };
+		152C83F11ED5AADB00F9D9FE /* VTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C83F01ED5AADB00F9D9FE /* VTNavigationController.m */; };
+		154317A11ED5B27700E1AA07 /* VTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154317A01ED5B27700E1AA07 /* VTTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152C83CF1ED596FA00F9D9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152C83AD1ED596F900F9D9FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152C83B41ED596F900F9D9FE;
+			remoteInfo = ViewTracker;
+		};
+		152C83DA1ED596FA00F9D9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152C83AD1ED596F900F9D9FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152C83B41ED596F900F9D9FE;
+			remoteInfo = ViewTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152C83B51ED596F900F9D9FE /* ViewTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		152C83B91ED596F900F9D9FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		152C83BB1ED596F900F9D9FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		152C83BC1ED596F900F9D9FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		152C83BE1ED596F900F9D9FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		152C83BF1ED596F900F9D9FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		152C83C21ED596F900F9D9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		152C83C41ED596F900F9D9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		152C83C71ED596F900F9D9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		152C83C91ED596F900F9D9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152C83CE1ED596FA00F9D9FE /* ViewTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152C83D21ED596FA00F9D9FE /* ViewTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTrackerTests.m; sourceTree = "<group>"; };
+		152C83D41ED596FA00F9D9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152C83D91ED596FA00F9D9FE /* ViewTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152C83DD1ED596FA00F9D9FE /* ViewTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTrackerUITests.m; sourceTree = "<group>"; };
+		152C83DF1ED596FA00F9D9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152C83EB1ED597AC00F9D9FE /* UIView+ViewTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ViewTracker.h"; path = "ViewTracker/UIView+ViewTracker.h"; sourceTree = "<group>"; };
+		152C83EC1ED597AC00F9D9FE /* UIView+ViewTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ViewTracker.m"; path = "ViewTracker/UIView+ViewTracker.m"; sourceTree = "<group>"; };
+		152C83EF1ED5AADB00F9D9FE /* VTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTNavigationController.h; sourceTree = "<group>"; };
+		152C83F01ED5AADB00F9D9FE /* VTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTNavigationController.m; sourceTree = "<group>"; };
+		1543179F1ED5B27700E1AA07 /* VTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTabBarController.h; sourceTree = "<group>"; };
+		154317A01ED5B27700E1AA07 /* VTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152C83B21ED596F900F9D9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152C83CB1ED596FA00F9D9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152C83D61ED596FA00F9D9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152C83AC1ED596F900F9D9FE = {
+			isa = PBXGroup;
+			children = (
+				152C83B71ED596F900F9D9FE /* ViewTracker */,
+				152C83D11ED596FA00F9D9FE /* ViewTrackerTests */,
+				152C83DC1ED596FA00F9D9FE /* ViewTrackerUITests */,
+				152C83B61ED596F900F9D9FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152C83B61ED596F900F9D9FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152C83B51ED596F900F9D9FE /* ViewTracker.app */,
+				152C83CE1ED596FA00F9D9FE /* ViewTrackerTests.xctest */,
+				152C83D91ED596FA00F9D9FE /* ViewTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152C83B71ED596F900F9D9FE /* ViewTracker */ = {
+			isa = PBXGroup;
+			children = (
+				152C83EE1ED597C600F9D9FE /* ViewTracker */,
+				152C83BB1ED596F900F9D9FE /* AppDelegate.h */,
+				152C83BC1ED596F900F9D9FE /* AppDelegate.m */,
+				152C83BE1ED596F900F9D9FE /* ViewController.h */,
+				152C83BF1ED596F900F9D9FE /* ViewController.m */,
+				152C83EF1ED5AADB00F9D9FE /* VTNavigationController.h */,
+				152C83F01ED5AADB00F9D9FE /* VTNavigationController.m */,
+				1543179F1ED5B27700E1AA07 /* VTTabBarController.h */,
+				154317A01ED5B27700E1AA07 /* VTTabBarController.m */,
+				152C83C11ED596F900F9D9FE /* Main.storyboard */,
+				152C83C41ED596F900F9D9FE /* Assets.xcassets */,
+				152C83C61ED596F900F9D9FE /* LaunchScreen.storyboard */,
+				152C83C91ED596F900F9D9FE /* Info.plist */,
+				152C83B81ED596F900F9D9FE /* Supporting Files */,
+			);
+			path = ViewTracker;
+			sourceTree = "<group>";
+		};
+		152C83B81ED596F900F9D9FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				152C83B91ED596F900F9D9FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		152C83D11ED596FA00F9D9FE /* ViewTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				152C83D21ED596FA00F9D9FE /* ViewTrackerTests.m */,
+				152C83D41ED596FA00F9D9FE /* Info.plist */,
+			);
+			path = ViewTrackerTests;
+			sourceTree = "<group>";
+		};
+		152C83DC1ED596FA00F9D9FE /* ViewTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152C83DD1ED596FA00F9D9FE /* ViewTrackerUITests.m */,
+				152C83DF1ED596FA00F9D9FE /* Info.plist */,
+			);
+			path = ViewTrackerUITests;
+			sourceTree = "<group>";
+		};
+		152C83EE1ED597C600F9D9FE /* ViewTracker */ = {
+			isa = PBXGroup;
+			children = (
+				152C83EB1ED597AC00F9D9FE /* UIView+ViewTracker.h */,
+				152C83EC1ED597AC00F9D9FE /* UIView+ViewTracker.m */,
+			);
+			name = ViewTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152C83B41ED596F900F9D9FE /* ViewTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152C83E21ED596FA00F9D9FE /* Build configuration list for PBXNativeTarget "ViewTracker" */;
+			buildPhases = (
+				152C83B11ED596F900F9D9FE /* Sources */,
+				152C83B21ED596F900F9D9FE /* Frameworks */,
+				152C83B31ED596F900F9D9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewTracker;
+			productName = ViewTracker;
+			productReference = 152C83B51ED596F900F9D9FE /* ViewTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152C83CD1ED596FA00F9D9FE /* ViewTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152C83E51ED596FA00F9D9FE /* Build configuration list for PBXNativeTarget "ViewTrackerTests" */;
+			buildPhases = (
+				152C83CA1ED596FA00F9D9FE /* Sources */,
+				152C83CB1ED596FA00F9D9FE /* Frameworks */,
+				152C83CC1ED596FA00F9D9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152C83D01ED596FA00F9D9FE /* PBXTargetDependency */,
+			);
+			name = ViewTrackerTests;
+			productName = ViewTrackerTests;
+			productReference = 152C83CE1ED596FA00F9D9FE /* ViewTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152C83D81ED596FA00F9D9FE /* ViewTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152C83E81ED596FA00F9D9FE /* Build configuration list for PBXNativeTarget "ViewTrackerUITests" */;
+			buildPhases = (
+				152C83D51ED596FA00F9D9FE /* Sources */,
+				152C83D61ED596FA00F9D9FE /* Frameworks */,
+				152C83D71ED596FA00F9D9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152C83DB1ED596FA00F9D9FE /* PBXTargetDependency */,
+			);
+			name = ViewTrackerUITests;
+			productName = ViewTrackerUITests;
+			productReference = 152C83D91ED596FA00F9D9FE /* ViewTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152C83AD1ED596F900F9D9FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cocoadogs;
+				TargetAttributes = {
+					152C83B41ED596F900F9D9FE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					152C83CD1ED596FA00F9D9FE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 152C83B41ED596F900F9D9FE;
+					};
+					152C83D81ED596FA00F9D9FE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 152C83B41ED596F900F9D9FE;
+					};
+				};
+			};
+			buildConfigurationList = 152C83B01ED596F900F9D9FE /* Build configuration list for PBXProject "ViewTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152C83AC1ED596F900F9D9FE;
+			productRefGroup = 152C83B61ED596F900F9D9FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152C83B41ED596F900F9D9FE /* ViewTracker */,
+				152C83CD1ED596FA00F9D9FE /* ViewTrackerTests */,
+				152C83D81ED596FA00F9D9FE /* ViewTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152C83B31ED596F900F9D9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152C83C81ED596F900F9D9FE /* LaunchScreen.storyboard in Resources */,
+				152C83C51ED596F900F9D9FE /* Assets.xcassets in Resources */,
+				152C83C31ED596F900F9D9FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152C83CC1ED596FA00F9D9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152C83D71ED596FA00F9D9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152C83B11ED596F900F9D9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152C83C01ED596F900F9D9FE /* ViewController.m in Sources */,
+				152C83F11ED5AADB00F9D9FE /* VTNavigationController.m in Sources */,
+				152C83BD1ED596F900F9D9FE /* AppDelegate.m in Sources */,
+				152C83ED1ED597AC00F9D9FE /* UIView+ViewTracker.m in Sources */,
+				152C83BA1ED596F900F9D9FE /* main.m in Sources */,
+				154317A11ED5B27700E1AA07 /* VTTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152C83CA1ED596FA00F9D9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152C83D31ED596FA00F9D9FE /* ViewTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152C83D51ED596FA00F9D9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152C83DE1ED596FA00F9D9FE /* ViewTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152C83D01ED596FA00F9D9FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152C83B41ED596F900F9D9FE /* ViewTracker */;
+			targetProxy = 152C83CF1ED596FA00F9D9FE /* PBXContainerItemProxy */;
+		};
+		152C83DB1ED596FA00F9D9FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152C83B41ED596F900F9D9FE /* ViewTracker */;
+			targetProxy = 152C83DA1ED596FA00F9D9FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		152C83C11ED596F900F9D9FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152C83C21ED596F900F9D9FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		152C83C61ED596F900F9D9FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152C83C71ED596F900F9D9FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		152C83E01ED596FA00F9D9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		152C83E11ED596FA00F9D9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152C83E31ED596FA00F9D9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.ViewTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		152C83E41ED596FA00F9D9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.ViewTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		152C83E61ED596FA00F9D9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViewTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.ViewTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewTracker.app/ViewTracker";
+			};
+			name = Debug;
+		};
+		152C83E71ED596FA00F9D9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViewTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.ViewTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewTracker.app/ViewTracker";
+			};
+			name = Release;
+		};
+		152C83E91ED596FA00F9D9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViewTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.ViewTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ViewTracker;
+			};
+			name = Debug;
+		};
+		152C83EA1ED596FA00F9D9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViewTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.ViewTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ViewTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152C83B01ED596F900F9D9FE /* Build configuration list for PBXProject "ViewTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152C83E01ED596FA00F9D9FE /* Debug */,
+				152C83E11ED596FA00F9D9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152C83E21ED596FA00F9D9FE /* Build configuration list for PBXNativeTarget "ViewTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152C83E31ED596FA00F9D9FE /* Debug */,
+				152C83E41ED596FA00F9D9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152C83E51ED596FA00F9D9FE /* Build configuration list for PBXNativeTarget "ViewTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152C83E61ED596FA00F9D9FE /* Debug */,
+				152C83E71ED596FA00F9D9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152C83E81ED596FA00F9D9FE /* Build configuration list for PBXNativeTarget "ViewTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152C83E91ED596FA00F9D9FE /* Debug */,
+				152C83EA1ED596FA00F9D9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152C83AD1ED596F900F9D9FE /* Project object */;
+}
